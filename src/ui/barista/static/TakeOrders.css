@@ -1,0 +1,88 @@
+.orders-page-container {
+    padding: 16px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.orders-page-header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+.orders-tab {
+    padding-bottom: 8px;
+    font-size: 18px;
+    color: #666;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.orders-tab.active {
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #8b5e3c;
+}
+
+.orders-status {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.status-indicator {
+    background-color: #32cd32;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.orders-list {
+    flex-grow: 1;
+}
+
+.order-section {
+    margin-bottom: 24px;
+}
+
+.order-section h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.orderitem {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.order-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.order-time {
+    color: #666;
+    font-size: 14px;
+}
+
+.order-arrow {
+    font-size: 20px;
+    color: #666;
+}

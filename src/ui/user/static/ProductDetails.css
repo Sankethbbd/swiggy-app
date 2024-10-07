@@ -1,0 +1,542 @@
+.productdetails{
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; */  
+}
+.top-nav{
+    text-align: center;
+    font-style: "Montserrat";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    h4{
+        /* padding: 0.6rem; */
+        margin: 0%;
+        color: rgb(92, 92, 92);
+        font-size: 1.3rem;
+    }
+}
+
+.arrow-left {
+    position: absolute;
+    left: 0rem;
+    display: flex;
+    align-items: center;
+    svg {
+        height: 2.0rem;
+        width: 2.5rem;
+        color: rgb(92, 92, 92);
+    }
+    border: none;
+    background-color: transparent;
+}
+
+.product-content{
+    h2{
+        padding-top: 0.5rem;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+        margin: 0%;
+        color: rgb(92, 92, 92);
+        font-size: 1.5rem;
+
+    }
+    p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0%;
+        padding-bottom: 0.5rem;
+        color: rgb(92, 92, 92);
+    }
+}
+.productimg{
+    display:flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: rgb(227, 222, 222);
+     margin-left: 10%;
+    /* padding: 0%; */
+}
+
+
+.milkdropdown{
+    position: relative;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    flex-direction: column;
+    width: 94%;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.milkdropdown-button{
+    background-color: transparent;
+    color: rgb(92, 92, 92);
+    font-size: 1rem;
+    border: none;
+}
+
+.milky {
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: #EDEDED;
+    padding: 0.5rem;
+    gap: 6rem;
+
+}
+.bottle-icon{
+    margin-right: auto;
+    height: 2.2rem;
+    width: 1.2rem;
+    color: gray;
+}
+.arrow-down{
+    margin-left: auto;
+    height: 2rem;
+    width: 1.2rem;
+    color: grey;
+}
+.milkdropdown-content{
+    display: none;
+    text-align: center;    
+    position: absolute;
+    background-color: white;
+    width: 94%;
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.milkdropdown-content a {
+    color: rgb(92, 92, 92);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.milkdropdown-content a:hover {background-color: #ddd;}
+  
+.milkdropdown:hover .milkdropdown-content {display: block;}
+  
+.milkdropdown:hover .milkdropDown-button {background-color: rgb(92, 92, 92);}
+.add-notes{
+    background-color: #EDEDED;
+    padding: 1rem;
+    margin-left: 1rem;
+    flex-grow: 1;
+    border: none;
+    font-size: 1rem;
+}
+.search-notes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    /* padding: 1rem; */
+    margin: 0.8rem;
+    text-align: center;
+    color: rgb(92, 92, 92);
+    background-color: #EDEDED;
+    align-items: left;
+    /* margin-left: 1rem; */
+    border-radius: 0.5rem;
+}
+
+.notes{
+    position: absolute;
+    left:auto;
+    top:1rem;
+    left:0.4rem; 
+
+}
+.notes svg {
+    color: rgb(92, 92, 92);
+    height: 1rem;
+    width: 1rem;
+}
+.add-notes:focus {
+    outline: none;
+    box-shadow: none;
+}
+.submit{
+    flex-direction: column;
+    width: 94%;
+    padding: 1rem;
+    margin-left: 0.7rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+    color: white;
+    background-color: #794D31;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+
+}
+
+
+.submiting{
+    margin-bottom: 4%;
+    padding: 0%;
+}
+
+
+@media screen and (max-width:375px) {       
+    .milky {
+        padding: 0.5rem;
+        gap: 4rem;
+    }
+    .bottle-icon{
+        height: 2.2rem;
+        width: 1.2rem;
+    }
+
+    .milkdropdown-button{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (min-width:550px) and (max-width:650px) {
+    .product-content{
+    h2{
+        padding-top: 0.5rem;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+        font-size: 1.7rem;
+    }
+    p
+    {
+        font-size: 1.2rem;
+    }
+    }
+    .milky {
+        padding: 0.5rem;
+        gap: 3rem;
+    }
+    .bottle-icon{
+        height: 2.5rem;
+        width: 1.5rem;
+    }
+    
+    .milkdropdown-button{
+        font-size: 1.1rem;
+    }
+    .arrow-down{
+        height: 2.5rem;
+        width: 1.7rem;
+    }
+    .add-notes{
+        padding-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+    .notes{
+        position: absolute;
+        top:1rem;
+        left:0.4rem;
+    
+    }
+    .notes svg {
+        color: rgb(92, 92, 92);
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .submit{
+        margin-left: 0.7rem;
+        margin-bottom: 0.7rem;
+        font-size: 1.2rem;
+    }
+    .top-nav{
+        h4{
+            /* padding: 0.6rem; */
+            margin: 0%;
+            color: rgb(92, 92, 92);
+            font-size: 1.8rem;
+        }
+    }
+    .arrow-left {
+        svg {
+            height: 2.9rem;
+            width: 3rem;
+            color: rgb(92, 92, 92);
+        }
+    }
+}
+
+@media screen and (min-width:650px) and (max-width:900px) {
+    .productimg{
+        display: flex;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        width: 80%;
+        border-radius: 1rem;
+        border-style: solid;
+        border-color: rgb(227, 222, 222);
+
+    }
+
+    .product-content{
+        h2{
+            padding-top: 0.5rem;
+            padding-left: 1rem;
+            padding-bottom: 0.5rem;
+            font-size: 1.7rem;
+        }
+        p
+        {
+            font-size: 1.2rem;
+        }
+    }
+    .milky {
+        padding: 0.5rem;
+        gap: 3rem;
+    }
+    .bottle-icon{
+        height: 2.5rem;
+        width: 1.5rem;
+    }
+        
+    .milkdropdown-button{
+        font-size: 1.1rem;
+    }
+    .arrow-down{
+        height: 2.5rem;
+        width: 1.7rem;
+    }
+    .add-notes{
+        padding-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+    .notes{
+        position: absolute;
+        top:1rem;
+        left:0.4rem;
+    
+    }
+    .notes svg {
+        color: rgb(92, 92, 92);
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .submit{
+        margin-left: 0.7rem;
+        margin-bottom: 0.7rem;
+        font-size: 1.2rem;
+    }
+    .top-nav{
+        h4{
+            /* padding: 0.6rem; */
+            margin: 0%;
+            color: rgb(92, 92, 92);
+            font-size: 1.8rem;
+        }
+    }
+    .arrow-left {
+        svg {
+            height: 2.9rem;
+            width: 3rem;
+            color: rgb(92, 92, 92);
+        }
+    }
+    .productimg{
+        width: 70%;
+        margin-left: 15%;
+    }
+    }
+    
+    @media screen and (min-width: 900px) and (max-width: 1198px) {
+    .product-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .product-content{
+        flex: 1.5;
+        text-align: center;
+    }
+
+    .product-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productimg {
+        width: 80%;
+        margin-top: 3rem;
+        /* margin-left: 10%; */
+    }
+
+    .product-content h2 {
+        padding-top: 1rem;
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+    .product-content p {
+        font-size: 1.5rem;
+    }
+
+    .milky {
+        padding: 0.5rem;
+        gap: 3rem;
+        /* margin-bottom: 3rem; */
+    }
+
+    .bottle-icon {
+        height: 2.5rem;
+        width: 1.5rem;
+    }
+
+    .milkdropdown-button {
+        font-size: 1.1rem;
+    }
+
+    .arrow-down {
+        height: 2.5rem;
+        width: 1.7rem;
+    }
+
+    .add-notes {
+        padding-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .notes {
+        position: absolute;
+        top: 1rem;
+        left: 0.4rem;
+    }
+
+    .notes svg {
+        color: rgb(92, 92, 92);
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .submit {
+        margin-left: 0.7rem;
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
+    }
+
+    .top-nav h4 {
+        margin: 0;
+        color: rgb(92, 92, 92);
+        font-size: 1.9rem;
+    }
+    .top-nav{
+        margin-bottom: 1rem;
+    }
+
+    .arrow-left svg {
+        height: 2.9rem;
+        width: 3rem;
+        color: rgb(92, 92, 92);
+    }
+    /* .navbar-spacing{
+        margin-bottom: 1%;
+    } */
+    
+
+}
+
+  
+@media screen and (min-width:1198px) and (max-width:2826px ) {
+    .product-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .product-content{
+        flex: 1.5;
+        text-align: center;
+    }
+
+    .product-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productimg {
+        width: 80%;
+        margin-top: 3rem;
+        /* margin-left: 10%; */
+    }
+
+    .product-content h2 {
+        padding-top: 6rem;
+        padding-left: 0rem;
+        padding-bottom: 1rem;
+        font-size: 1.7rem;
+    }
+    .product-content p {
+        font-size: 1.5rem;
+    }
+
+    .milky {
+        padding: 0.5rem;
+        gap: 3rem;
+        /* margin-bottom: 3rem; */
+    }
+
+    .bottle-icon {
+        height: 2.5rem;
+        width: 1.5rem;
+    }
+
+    .milkdropdown-button {
+        font-size: 1.1rem;
+    }
+
+    .arrow-down {
+        height: 2.5rem;
+        width: 1.7rem;
+    }
+
+    .add-notes {
+        padding-left: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .notes {
+        position: absolute;
+        top: 1rem;
+        left: 0.4rem;
+    }
+
+    .notes svg {
+        color: rgb(92, 92, 92);
+        height: 1.3rem;
+        width: 1.3rem;
+    }
+    .submit {
+        margin-left: 0.7rem;
+        margin-bottom: 5rem;
+        font-size: 1.2rem;
+    }
+
+    .top-nav h4 {
+        margin: 0;
+        color: rgb(92, 92, 92);
+        font-size: 1.9rem;
+    }
+    .top-nav{
+        margin-bottom: 1rem;
+    }
+
+    .arrow-left svg {
+        height: 2.9rem;
+        width: 3rem;
+        color: rgb(92, 92, 92);
+    }
+    /* .navbar-spacing{
+        margin-bottom: 1%;
+    } */
+}

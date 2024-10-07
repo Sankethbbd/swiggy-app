@@ -1,0 +1,99 @@
+.orderdetails-container {
+    padding: 16px;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+} 
+
+.order-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.back-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.order-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.order-status {
+    background-color: #d3d3d3;
+    border-radius: 12px;
+    padding: 4px 12px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.order-items {
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+
+.list-item {
+    margin-bottom: 16px;
+}
+
+.list-item h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.list-item p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #666;
+}
+
+.order-history h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.order-history p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.decline-button,
+.accept-button {
+    flex: 1;
+    padding: 12px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.decline-button {
+    background-color: #f4f4f4;
+    color: #333;
+    margin-right: 8px;
+}
+
+.accept-button {
+    background-color: #8b5e3c;
+    color: #fff;
+    margin-left: 8px;
+}

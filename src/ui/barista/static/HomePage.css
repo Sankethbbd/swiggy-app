@@ -1,0 +1,72 @@
+.barista-avail{
+    padding: 0.5rem;
+    width: 92%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    background-color:#30B700;
+    border: none;
+    color: white;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.barista-not-avail{
+    padding: 0.9rem;
+    width: 92%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    background-color:white;
+    color: rgb(92,92,92);
+    border: solid;
+    border-width: 0.01rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+.change-color{
+    padding: 0.5rem;
+    width: 92%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border: none;
+    color: white;
+    border-radius: 0.8rem;
+    text-align: center;
+    background-color:#D30000;
+}
+
+@media screen and (min-width:900px) and (max-width:2000px) {
+    .homepage-container {
+        flex-direction: row;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    
+      .left-homepage {
+        flex: 2;
+      }
+    
+      .right-homepage {
+        margin-top: 20%;
+        flex: 1;
+      }
+      .barista-avail{
+        font-size: 1rem;
+    }
+    
+    .barista-not-avail{
+        font-size: 1rem;
+    }
+    .change-color{
+        padding: 0.5rem;
+        width: 92%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+}

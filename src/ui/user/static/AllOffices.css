@@ -1,0 +1,190 @@
+.location-option{
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style:solid;
+    border-color: rgb(95, 92, 92);
+    border-width: 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 5rem;
+    color: rgb(95, 92, 92);
+    font-weight: 800;
+    text-decoration: none;
+    svg{
+        color: rgb(95, 92, 92);
+    }
+    .arrow{
+        margin-left:auto;
+    }
+}
+.mapping{
+    padding-top: 0.9rem;
+    width: 95%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+.pick-location{
+    font-size: clamp(17px,2.0vw,28%);
+    font-weight: 900;
+    color: rgb(95, 92, 92);
+    text-align: center;
+}
+
+.coffeebean{
+    width: 2.1rem;
+}
+
+
+@media screen and (max-width:332px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 3.5rem;
+        font-weight: 800;
+        .arrow{
+            margin-left:auto;
+        }
+    }
+    .pick-location{
+        font-size: clamp(17px,2.0vw,28%);
+        font-weight: 900;
+    }
+    
+    .coffeebean{
+        width: 2.1rem;
+    }
+    
+}
+
+@media screen and (min-width:405px) and (max-width:495px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 5rem;
+        font-size: 1.1rem;
+        font-weight: 800;
+        .arrow{
+            margin-left:auto;
+        }
+    }
+    .pick-location{
+        font-size: clamp(22px,2.0vw,28%);
+        font-weight: 900;
+    }
+    
+    .coffeebean{
+        width: 2.1rem;
+    }
+ 
+}
+
+@media screen and (min-width:495px) and (max-width:610px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 8rem;
+        font-size: 1.2rem;
+        font-weight: 800;
+        .arrow{
+            margin-left:auto;
+        }
+    }
+    .pick-location{
+        font-size: clamp(22px,2.0vw,28%);
+        font-weight: 900;
+    }
+    
+    .coffeebean{
+        width: 2.1rem;
+    }
+ 
+}
+
+@media screen and (min-width:610px) and (max-width:700px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 8rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+        .arrow{
+            margin-left:auto;
+        }
+    }
+    .pick-location{
+        font-size: clamp(22px,2.0vw,28%);
+        font-weight: 900;
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:899px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 8rem;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .pick-location{
+        font-size: clamp(28px,2.0vw,28%);
+    }
+    
+}
+@media screen and (min-width:900px) and (max-width:1000px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 0.5rem;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .pick-location{
+        padding-top: 3rem;
+        font-size: clamp(26px,2.0vw,28%);
+        
+    }
+    
+}
+
+@media screen and (max-width:2565px) and (min-width:1001px) {
+    .location-option{
+        padding: 1rem;
+        display: flex;
+        gap: 0.5rem;
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    .pick-location{
+        padding-top: 3rem;
+        font-size: clamp(26px,2.0vw,28%);
+        
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 2660px) {
+    .alloffices{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        top:0%;
+
+    }
+    .frontpage-container, .alloffices-container {
+        flex: 1; 
+        /* padding: 1rem;  */
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .frontpage-container {
+        flex: 2;
+    }
+}
